@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ExemploSaidaDados {
     public static void main(String[] args) {
+        
         Scanner input = new Scanner(System.in);
         String nome;
         int idade;
@@ -14,6 +15,7 @@ public class ExemploSaidaDados {
         
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
-        System.out.println("Olá, eu sou Java! Seu nome é " + nome + " e tem " + idade + " anos!");
+        System.out.println("Olá, eu sou Java! Seu nome é " + nome + " e você tem " + idade + " anos!");
+        
     }
 }

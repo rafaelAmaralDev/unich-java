@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TesteRadiano",
+            "request": "launch",
+            "mainClass": "TesteRadiano",
+            "projectName": "exemplo-saida-dados_7140358b"
+        },
+        {
+            "type": "java",
             "name": "ExemploSaidaDados",
             "request": "launch",
             "mainClass": "ExemploSaidaDados",
