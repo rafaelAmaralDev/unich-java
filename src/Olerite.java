@@ -24,5 +24,7 @@ public class Olerite {
         System.out.println("- IR: " + ir);
         System.out.println("- Sindicato: " + sindicato);
         System.out.println("Salário Líquido: R$ " + salarioLiquido);
+
+        input.close();
     }
 }

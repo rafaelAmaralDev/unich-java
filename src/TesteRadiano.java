@@ -13,5 +13,7 @@ public class TesteRadiano {
         r = g * pi / 180;
 
         System.out.println("O valor do ângulo em radianos é: " + r);
+
+        input.close();
     }
 }

@@ -17,5 +17,6 @@ public class ExemploSaidaDados {
         System.out.println("Idade: " + idade);
         System.out.println("Olá, eu sou Java! Seu nome é " + nome + " e você tem " + idade + " anos!");
         
+        input.close();
     }
 }

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MediaAritmetica",
+            "request": "launch",
+            "mainClass": "MediaAritmetica",
+            "projectName": "exemplo-saida-dados_7140358b"
+        },
+        {
+            "type": "java",
+            "name": "ParImpar",
+            "request": "launch",
+            "mainClass": "ParImpar",
+            "projectName": "exemplo-saida-dados_7140358b"
+        },
+        {
+            "type": "java",
             "name": "Olerite",
             "request": "launch",
             "mainClass": "Olerite",
