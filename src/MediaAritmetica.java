@@ -12,20 +12,19 @@ public class MediaAritmetica {
 
         double media = (num1 + num2) / 2;
 
-        System.out.printf("A média aritmética é: %.2f%n", media);
+        System.out.printf("A média das notas é: %.2f%n", media);
 
         if (media >= 7) {
             System.out.println("Aprovado!");
         } else if (media < 7 && media >= 4) {
             System.out.println("Aluno vai para a Final!");
-        } else {
-            System.out.println("Reprovado!");
-        }
-
-        System.out.println("Qual o valor da nota final?");
-        double notaFinal = scanner.nextDouble();
-        if (notaFinal >= 5) {
-            System.out.println("Aprovado!");
+            System.out.println("Qual o valor da nota final?");
+            double notaFinal = scanner.nextDouble();
+            if (notaFinal >= 5) {
+                System.out.println("Aprovado!");
+            } else {
+                System.out.println("Reprovado!");
+            }
         } else {
             System.out.println("Reprovado!");
         }
