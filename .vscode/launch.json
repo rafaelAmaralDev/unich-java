@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QuadradoDaSoma",
+            "request": "launch",
+            "mainClass": "QuadradoDaSoma",
+            "projectName": "exemplo-saida-dados_7140358b"
+        },
+        {
+            "type": "java",
             "name": "MediaAritmetica",
             "request": "launch",
             "mainClass": "MediaAritmetica",

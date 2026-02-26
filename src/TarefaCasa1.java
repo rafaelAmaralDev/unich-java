@@ -1,4 +1,4 @@
-public class TarefaCasa {
+public class TarefaCasa1 {
     public static void main(String[] args) throws Exception {
         java.util.Scanner scanner = new java.util.Scanner(System.in);
 
