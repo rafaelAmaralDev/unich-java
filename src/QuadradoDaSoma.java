@@ -1,7 +1,6 @@
 public class QuadradoDaSoma {
     public static void main(String[] args) throws Exception {
 
-        //faça um programa que calcule a diferença entre a soma dos quadrados dos primeiros 10 numeros naturais e depois o quadrado da soma pegue o resultado e depois faça a diferença entre eles dando 3025 - 285 = 2640
         int somaQuadrados = 0;
         int quadradoSoma = 0;
         
