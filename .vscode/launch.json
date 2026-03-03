@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FatorialNumero",
+            "request": "launch",
+            "mainClass": "FatorialNumero",
+            "projectName": "exemplo-saida-dados_7140358b"
+        },
+        {
+            "type": "java",
             "name": "NumeroHarmonico",
             "request": "launch",
             "mainClass": "NumeroHarmonico",
