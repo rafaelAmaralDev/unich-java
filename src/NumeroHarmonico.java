@@ -17,5 +17,6 @@ public class NumeroHarmonico {
             }
             System.out.println("Série harmônica: " + serieHarmonica);
         }
+        input.close();
     }
 }

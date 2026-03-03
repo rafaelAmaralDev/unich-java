@@ -16,5 +16,6 @@ public class FatorialNumero {
             }
             System.out.println("Fatorial: " + fatorial);
         }
+        input.close();
     }
 }

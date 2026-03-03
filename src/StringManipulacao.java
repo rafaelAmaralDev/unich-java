@@ -1,6 +1,6 @@
 public class StringManipulacao {
     public static void main(String[] args) {
-        String nome = "Rafael Amaral"();
+        String nome = "Rafael Amaral";
         //name = name.toUpperCase();
         //name = name.toLowerCase();        
         
