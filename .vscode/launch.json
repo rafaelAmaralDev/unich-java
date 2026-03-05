@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Matriz",
+            "request": "launch",
+            "mainClass": "Matriz",
+            "projectName": "exemplo-saida-dados_7140358b"
+        },
+        {
+            "type": "java",
             "name": "Arranjos",
             "request": "launch",
             "mainClass": "Arranjos",
