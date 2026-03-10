@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalculadoraBasica",
+            "request": "launch",
+            "mainClass": "CalculadoraBasica",
+            "projectName": "exemplo-saida-dados_7140358b"
+        },
+        {
+            "type": "java",
             "name": "PesoIdeal",
             "request": "launch",
             "mainClass": "PesoIdeal",
