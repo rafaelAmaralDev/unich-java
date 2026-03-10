@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PesoIdeal",
+            "request": "launch",
+            "mainClass": "PesoIdeal",
+            "projectName": "exemplo-saida-dados_7140358b"
+        },
+        {
+            "type": "java",
             "name": "Matriz",
             "request": "launch",
             "mainClass": "Matriz",
