@@ -39,7 +39,8 @@ public class PesoIdeal {
 
         System.out.println("Seu IMC é: " + imc);
         System.out.println("Seu peso ideal é: " + pesoIdeal);
-
+        
+        input.close();
     }
 
 }

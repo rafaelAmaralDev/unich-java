@@ -25,5 +25,6 @@ public class Matriz {
             }
             System.out.println("Soma dos elementos da diagonal principal: " + cotadorDiagonal);
         }
+        input.close();
     }
 }

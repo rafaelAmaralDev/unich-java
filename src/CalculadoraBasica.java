@@ -47,17 +47,21 @@ public class CalculadoraBasica {
                     resultado = dividir(num1, num2);
                 } else {
                     System.out.println("Erro: Divisão por zero não é permitida.");
+                    input.close();
                     return;
                 }
                 break;
             case "5":
                 System.out.println("Saindo...");
+                input.close();
                 return;
             default:
                 System.out.println("Operação inválida.");
+                input.close();
                 return;
         }
 
         System.out.println("Resultado: " + resultado);
+        input.close();
     }
 }
