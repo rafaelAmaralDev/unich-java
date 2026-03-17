@@ -57,8 +57,7 @@ public class EntendendoExcecoes {
             System.out.println("Bloco finally executado.");
         }
 
-        try {
-            Scanner scanner = new Scanner("texto");
+        try (Scanner scanner = new Scanner("texto")) {
             int numero = scanner.nextInt(); // InputMismatchException
             System.out.println("Número digitado: " + numero);
         } catch (InputMismatchException e) {
@@ -86,10 +85,8 @@ public class EntendendoExcecoes {
             System.out.println("Bloco finally executado.");
         }
 
-        try {
-            FileReader arquivo = new FileReader("arquivo.txt"); // IOException
+        try (FileReader arquivo = new FileReader("arquivo.txt")) { // IOException
             arquivo.read();
-            arquivo.close();
         } catch (IOException e) {
             System.out.println("Erro ao tentar ler o arquivo: " + e.getMessage());
         } finally {
