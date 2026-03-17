@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EntendendoExcecoes",
+            "request": "launch",
+            "mainClass": "excecoes.EntendendoExcecoes",
+            "projectName": "unich-java_19561bac"
+        },
+        {
+            "type": "java",
             "name": "Olerite",
             "request": "launch",
             "mainClass": "Olerite",
